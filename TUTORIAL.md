@@ -152,6 +152,8 @@ Before you can run this project, you'll need to download and start an instance o
 Run the following commands in the `jhipster-microservices-example` directory.
 
 ```bash
+git clone https://github.com/jhipster/jhipster-registry.git
+
 git clone git@github.com:jhipster/jhipster-registry.git registry
 cd registry && yarn && ./mvnw
 ```
